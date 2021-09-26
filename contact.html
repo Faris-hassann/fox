@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="egyption agecncy helps you develop your small busines with the best price in the whole world.
+  it services you with managing your acconts on social media and services you with websites with different type of them.
+  and the fastest services ever you could take.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- links -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+  .contact{
+    border-radius: 10%;
+    border: 2px solid black;
+    margin: 10% auto;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    max-width: 500px;
+    background-color: #b9f0ff;
+  }
+  @media(max-width: 722px){
+    .contact{
+      width: 350px;
+      height: 560px;
+    }
+  }
+  .contact .box{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .main-heading h1{
+    font-size: 55px;
+    color: var(--main-color);
+  }
+  .linkers ul{
+    list-style: none;
+    margin-top: 50px;
+  }
+  .linkers li{
+    margin: 20px;
+  }
+  .linkers a{
+    font-size: 22px;
+    color: black;
+    max-width: 100%;
+  }
+  .linkers i{
+    margin-right: 10px;
+    font-size: 35px;
+  }
+</style>
+
+<body>
+  <header>
+    <div class="title">
+      <a href="index.html">
+        <img src="logo.png" alt="logo">
+      </a>   
+    </div>
+
+    <div class="spred-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="index.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+      <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+    </script>
+  </header>
+
+  <br><br><br><br>
+
+  <div class="contact">
+    <div class="box">
+      <div class="main-heading">
+        <h1>CONTACT US:</h1>
+      </div>
+      <div class="linkers">
+        <ul>
+          <li>
+            <a href="https://www.instagram.com/fox_.agency/">
+              <i class="fa fa-instagram"></i>
+                Fox Official Page On Instagram
+            </a>
+          </li>
+          <li>
+            <a href="index.html">
+              <i class="fa fa-code"></i>
+              Fox Official Website
+            </a>
+          </li>
+          <li>
+            <a href="https://wa.me/1000077767">
+              <i class="fa fa-whatsapp"></i>
+                Fox Official Whatsapp Number
+            </a>
+          </li>
+          <li>
+            <a href="tel:+201000077767"><i class="fa fa-phone"></i>
+              +201000077767
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="msg"> 
+      <a href="https://wa.me/1000077767"><i class="fa fa-whatsapp"></i></a> 
+  </div>
+  <footer>
+    <div class="links">
+      <h4>Our Pages:</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/fox_.agency/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="mailto: felmola13@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="https://wa.me/01000077767"><i class="fa fa-whatsapp"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
