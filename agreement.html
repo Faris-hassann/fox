@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="egyption agecncy helps you develop your small busines with the best price in the whole world.
+  it services you with managing your acconts on social media and services you with websites with different type of them.
+  and the fastest services ever you could take.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- links -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="logo.png" type="image/png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+</head>
+
+<style>
+  .agreement h1{
+    text-align: center;
+    font-size: 75px;
+    max-width: 100%;
+    color: var(--main-color);
+    margin: 30px;
+    padding: 20px;
+    background-color: #9c9494e0;
+  }
+  @media(max-width: 722px){
+    .agreement h1{
+      font-size: 45px;
+    }
+  }
+  .agreement p{
+    font-size: 20px;
+    padding: 20px;
+  }
+  .agreement ol{
+    list-style: auto;
+    margin-left: 65px;
+  }
+  @media(max-width: 722px){
+    .agreement ol{
+      margin-left: 20px;
+    }
+  }
+  .agreement li{
+    padding: 10px;
+    font-size: 20px;
+  }
+
+  form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  form h2{
+    font-size: 22px;
+    padding: 10px;
+  }
+  form h5{
+    font-size: 22px;
+    font-family: 'Bonheur Royale', cursive;
+    padding: 7px;
+    background-color: #dadada;
+    border-bottom: 2px solid #fb00ff;
+  }
+  input[type=text] {
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: #dadada;
+    padding: 7px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Bonheur Royale', cursive;
+  }
+  input[type=tel] {
+    border: none;
+    border-bottom: 2px solid red;
+    background-color: #dadada;
+    padding: 7px;
+    margin: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Bonheur Royale', cursive;
+  }
+  button{
+    width: 150px;
+    height: 50px;
+    background-color: #cecece;
+    border: 2px solid #000000;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: safe center;
+    transition: 100ms;
+    padding: 10px;
+    margin: 10px;
+  }
+  h4{
+    font-size: 22px;
+    text-align: center;
+  }
+  svg{
+    position: absolute;
+    text-align: center;
+    color: black;
+    z-index: 5;
+    fill: transparent;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+  }
+  button:focus{
+    outline: none;
+    border: 2px solid #le2a78;
+    width: 50px;
+    border-left: 4px solid #le2a78;
+    border-bottom: 4px solid #le2a78;
+    animation: spin 2s 500ms forwards;
+  }
+  button:focus h4{
+    color: transparent;
+  }
+  button:focus svg{
+    animation: check 500ms 2300ms forwards;
+  }
+  @keyframes spin{
+    80%{
+      border: 4px solid transparent;
+      border-left: 4px solid #303a52;
+    }
+    100%{
+      transform: rotate(1080deg);
+      border-left: 4px solid #303a52;
+    }
+  }
+  @keyframes check{
+    to{
+      fill: #303a52;
+    }
+  }
+  @keyframes circle{
+    to{
+      border: #303a52;
+    }
+  }
+</style>
+
+<body>
+  <header>
+    <div class="title">
+      <a href="index.html">
+        <img src="logo.png" alt="logo">
+      </a>   
+    </div>
+
+    <div class="spred-links">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html">Services</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div>
+
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a>
+      <a href="index.html">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+
+      <span onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+    <script>
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+      }
+
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft= "0";
+        document.body.style.backgroundColor = "white";
+      }
+    </script>
+  </header>
+
+  <br><br><br><br>
+
+  <div class="agreement">
+    <div class="container">
+      <div class="english">
+        <h1>CONTRACT</h1>
+        <p>
+          Both (The First and the second sides) have agreed on the following: 
+        </p>
+        <p>
+          First: The First party is obligated under this contract to work with the second party in:
+        </p>
+        <ol>
+          <li>Digital marketing and account managment for the required account.</li>
+          <li>creating posts as in the offer.</li>
+          <li>creating a video(cartoon or selling video).</li>
+          <li>creating (logo or qr code).</li>
+        </ol>
+        <p>
+          provided that the work period is for a period of the offer, and if it is proven during the period that the second party is not fit to work for the first party, the business relationship ends and the contract is terminated, but it must be There is a warning prior to the termination of the contract; The second party has the right to express an opinion on the escape of the first party.
+        </p>
+        <p>
+          note: The money must be transfered after the offer ends. (cash or orange cash)
+        </p>
+      </div>
+      <div class="text-box">
+        <p>
+          Please take the contract a screen shot and send it to us on what'sapp and if not we will consider that you didn't apply for the offer and we are not responsible for the lost of the screen shot
+        </p>
+      </div>
+      <form>
+        <h2>Choose the offer:</h2>
+        <select class="select-offer" style="margin: 5px;">
+          <option>Choose your Offer</option>
+          <option>First Offer</option>
+          <option>second Offer</option>
+          <option>third Offer</option>
+          <option>premium</option>
+        </select>
+        <h2>Choose the date:</h2>
+        <input type="date" name="date" style="margin-bottom: 5px;">
+
+        <h2>First side Number:</h2>
+        <h5>+20</h5>
+        <h5 style="margin: 10px;">1000077767</h5>
+
+        <h2>Enter Your phone Number:</h2>
+        <h5>+20</h5>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="1*********">
+
+        <h2>Enter a Second Phone Number:</h2>
+        <h5>+20</h5>
+        <input type="tel" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="1*********">
+        
+        <h2>Signature for the first side:</h2>
+        <h5>Faris Hassan</h5>
+
+        <h2>Signature for the second side:</h2>
+        <input type="text" name="sign" placeholder="Signature">
+      </form>
+      <button class="noselect">
+        <h4>Submit</h4>
+          <svg xmlns="http://www.w3.org/200/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="Your Path Here"/>
+          </svg>    
+      </button>
+    </div>
+  </div>
+
+  <div class="msg"> 
+      <a href="https://wa.me/+201000077767"><i class="fa fa-whatsapp"></i></a> 
+  </div>
+  <footer>
+    <div class="links">
+      <h4>Our Pages:</h4>
+      <ul>
+        <li><a href="https://www.instagram.com/fox_.agency/"><i class="fa fa-instagram"></i></a></li>
+        <li><a href="mailto: felmola13@gmail.com"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="https://wa.me/+201000077767"><i class="fa fa-whatsapp"></i></a></li>
+        <li><a href="tel:+201000077767"><i class="fa fa-phone"></i></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+</html>
